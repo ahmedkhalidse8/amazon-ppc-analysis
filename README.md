@@ -33,30 +33,36 @@ The objective of this project is to:
 
 ## Project Structure
 
+```
 amazon-ppc-analysis/
 │
 ├── dashboard/
-│ └── amazon_ppc_dashboard.pbix
+│   └── amazon_ppc_dashboard.pbix
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ └── 02_analysis.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_analysis.ipynb
 │
 ├── report/
-│ └── insights.md
+│   └── insights.md
 │
 ├── visuals/
-│ ├── Amazon PPC Performance Overview.png
-│ ├── Campaign Performance Analysis.png
-│ └── Keyword & Search Term Insights.png
+│   ├── Amazon PPC Performance Overview.png
+│   ├── Campaign Performance Analysis.png
+│   └── Keyword & Search Term Insights.png
 │
 └── README.md
+```
 
+## How to View This Project
 
+- **Don't have Power BI installed?** Check the `/visuals` folder for static screenshots of all three dashboard views.
+- **Want to see the analysis process?** Open `/notebooks` — `01_data_cleaning.ipynb` and `02_analysis.ipynb` walk through the full data cleaning and analysis workflow.
+- **Want the written summary?** See `/report/insights.md` for key findings in plain text.
 ---
 
 ## Key Insights
