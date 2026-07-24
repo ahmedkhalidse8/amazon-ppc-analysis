@@ -23,12 +23,13 @@ This project analyzes Amazon PPC (Pay-Per-Click) advertising performance using P
 
 ## Project Overview
 
-The objective of this project is to:
-- Analyze ad spend efficiency
-- Identify high-performing campaigns and keywords
-- Detect wasted budget
-- Provide actionable optimization strategies
+**Problem:** A $600K+ ad account had campaigns that looked normal on the surface but were quietly burning budget.
 
+**What I did:** Cleaned and analyzed 50,000+ Seller Central records in Python (Pandas), built a 3-view Power BI dashboard (Executive Overview, Campaign Performance, Keyword Insights) tracking ACOS, ROAS, CTR, and CPC.
+
+**Key finding:** One campaign was running at 94% ACOS — nearly breakeven on ad spend — driven by non-converting search terms eating budget.
+
+**Result:** Findings directly informed pricing and campaign optimization decisions, reducing wasted ad spend.
 ---
 
 ## Project Structure
