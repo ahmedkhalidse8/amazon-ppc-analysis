@@ -23,40 +23,47 @@ This project analyzes Amazon PPC (Pay-Per-Click) advertising performance using P
 
 ## Project Overview
 
-The objective of this project is to:
-- Analyze ad spend efficiency
-- Identify high-performing campaigns and keywords
-- Detect wasted budget
-- Provide actionable optimization strategies
+**Problem:** A $600K+ ad account had campaigns that looked normal on the surface but were quietly burning budget.
 
+**What I did:** Cleaned and analyzed 50,000+ Seller Central records in Python (Pandas), built a 3-view Power BI dashboard (Executive Overview, Campaign Performance, Keyword Insights) tracking ACOS, ROAS, CTR, and CPC.
+
+**Key finding:** One campaign was running at 94% ACOS — nearly breakeven on ad spend — driven by non-converting search terms eating budget.
+
+**Result:** Findings directly informed pricing and campaign optimization decisions, reducing wasted ad spend.
 ---
 
 ## Project Structure
 
+```
 amazon-ppc-analysis/
 │
 ├── dashboard/
-│ └── amazon_ppc_dashboard.pbix
+│   └── amazon_ppc_dashboard.pbix
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ └── 02_analysis.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_analysis.ipynb
 │
 ├── report/
-│ └── insights.md
+│   └── insights.md
 │
 ├── visuals/
-│ ├── Amazon PPC Performance Overview.png
-│ ├── Campaign Performance Analysis.png
-│ └── Keyword & Search Term Insights.png
+│   ├── Amazon PPC Performance Overview.png
+│   ├── Campaign Performance Analysis.png
+│   └── Keyword & Search Term Insights.png
 │
 └── README.md
+```
 
+## How to View This Project
 
+- **Don't have Power BI installed?** Check the `/visuals` folder for static screenshots of all three dashboard views.
+- **Want to see the analysis process?** Open `/notebooks` — `01_data_cleaning.ipynb` and `02_analysis.ipynb` walk through the full data cleaning and analysis workflow.
+- **Want the written summary?** See `/report/insights.md` for key findings in plain text.
 ---
 
 ## Key Insights
