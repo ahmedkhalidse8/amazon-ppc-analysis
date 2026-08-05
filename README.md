@@ -25,9 +25,11 @@ This project analyzes Amazon PPC (Pay-Per-Click) advertising performance using P
 
 **Problem:** A $600K+ ad account had campaigns that looked normal on the surface but were quietly burning budget.
 
+**Data note:** The repository contains a curated analysis dataset for reproducibility and portfolio review. The full Amazon Seller Central account data covered 50,000+ records and $600K+ in advertising activity.
+
 **What I did:** Cleaned and analyzed 50,000+ Seller Central records in Python (Pandas), built a 3-view Power BI dashboard (Executive Overview, Campaign Performance, Keyword Insights) tracking ACOS, ROAS, CTR, and CPC.
 
-**Key finding:** One campaign was running at 94% ACOS — nearly breakeven on ad spend — driven by non-converting search terms eating budget.
+**Key finding:** The account operated at approximately 94% ACOS, with several campaigns exceeding 100% ACOS. Search-term analysis identified non-converting queries consuming budget without generating sales.
 
 **Result:** Findings directly informed pricing and campaign optimization decisions, reducing wasted ad spend.
 ---
