@@ -77,6 +77,28 @@ amazon-ppc-analysis/
 
 ---
 
+Example Analysis: High ACOS and Wasted Spend
+
+One campaign-level example showed:
+
+Impressions: 694,503
+
+Clicks: 5,987
+
+Ad Spend: $5,203.77
+
+Ad Sales: $5,497.02
+
+ACOS: 94.67%
+
+ROAS: 1.06
+
+Finding: Advertising spend consumed approximately 94.67% of attributed sales revenue, leaving limited revenue to cover product costs and other expenses.
+
+Recommended action: Review search terms with spend but no attributed sales, add appropriate negative keywords, and adjust bids based on campaign and keyword performance.
+
+Business objective: Reduce inefficient ad spend while preserving traffic and sales from high-performing search terms.
+
 ## Recommendations
 
 - Reduce bids on high ACOS campaigns
