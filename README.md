@@ -102,7 +102,7 @@ The account generated approximately $7.27K in total sales, while advertising cam
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Power BI
 - Python (Pandas, NumPy)
